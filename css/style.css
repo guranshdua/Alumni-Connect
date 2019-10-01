@@ -1,0 +1,283 @@
+body
+{
+  font-family: Montserrat;
+  overflow-x: hidden;
+}
+
+p
+{
+  font-size: 14px;
+}
+
+.f900
+{
+  font-weight: 900;
+}
+
+.f700
+{
+  font-weight: 700;
+}
+
+.f600
+{
+  font-weight: 600;
+}
+
+.f400
+{
+  font-weight: 400;
+}
+
+.text-light-dark
+{
+  color: #6C6C6D;
+}
+
+.text-white
+{
+  color:#ffffff;
+
+}
+
+/*Home Page*/
+
+/*Section 1*/
+#home1
+{
+  height: 100vh;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home1 .lap
+{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 85%;
+  width:auto;
+}
+
+#home1 div
+{
+  padding-left: 50px;
+  height: 100%;
+}
+
+#home1 h2
+{
+  padding-top: 15%;
+  font-weight: 700;
+  padding-bottom: 1%;
+
+}
+
+.btn
+{
+  font-weight: 700;
+}
+
+/*Section 2*/
+#home2
+{
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+#home2 .lap
+{
+  display: block;
+  padding-top: 15%;
+  height:95%;
+  width:auto;
+}
+
+#home2 .col-md-5 h2
+{
+  padding-top:15%;
+}
+
+#home2 button
+{
+  position:absolute;
+  right:15%;
+}
+
+#home2 div
+{
+  height:100%;
+}
+
+#home3
+{
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+
+/*Navbar*/
+.nav-item
+{
+  font-family: Montserrat !important;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.navbar-brand
+{
+  padding-left: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-nav
+{
+  padding-right: 30px;
+}
+
+/*Footer*/
+.footer
+{
+  background-color: #151554;
+  height: auto;
+  bottom:0px;
+}
+
+.footer .row
+{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+}
+
+.footer .copyright
+{
+  background-color: #0D0D3D;
+}
+
+.footer p
+{
+  margin-bottom: 0px !important;
+  padding-bottom: 0.6%;
+  padding-top: 0.6%;
+}
+
+/*Login Page*/
+.login-left
+{
+  border-right: 1px solid #707070;
+}
+
+.login-left .btn-primary
+{
+  background-color: #4E64AD;
+  border-color: #4E64AD;
+  width:60%;
+  border-radius: 100px;
+}
+
+.login-left .btn-danger
+{
+  background-color: #DD4B39;
+  border-color: #DD4B39;
+  width:60%;
+  border-radius: 100px;
+}
+
+.login-left .btn-success
+{
+  background-color: #0274B3;
+  border-color: #0274B3;
+  width:60%;
+  border-radius: 100px;
+}
+
+/*Alumni Index*/
+.affix
+{
+  position:fixed;
+  width: 20%;
+  height:100%;
+}
+
+.post-news .card-header
+{
+  background-color: #3F93DA
+}
+
+.news .card-container
+{
+  padding-bottom: 20px;
+}
+
+.news .card
+{
+  background-color: #F5F5F5;
+  box-shadow: 1px 4px rgb(0,0,0,0.1);
+}
+
+/*EVENTS PAGE*/
+.events
+{
+  background-image: url("../images/events.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.eventlist .card-container
+{
+  padding-bottom: 20px;
+}
+
+/*JOBS PAGE*/
+.jobs
+{
+  background-image: url("../images/jobs.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/*Photo Gallery*/
+.photos
+{
+  background-image: url("../images/photos.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/*Donations Page*/
+.donations
+{
+  background-image: url("../images/donations.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/*ADMIN DASH*/
+.map .card-body
+{
+  height:500px;
+  background-image: url("../images/map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*PROFILE DASH*/
+.profile-home
+{
+  height:150px;
+  background-color: #333;
+}
+
+/*Experience Page*/
+.exp .card
+{
+  background-color: #fff;
+  border: 0;
+}
